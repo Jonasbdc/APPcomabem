@@ -81,7 +81,7 @@
         android:layout_width="335dp"
         android:layout_height="63dp"
         android:ems="10"
-        android:hint="Digite a categoria do produto"
+        android:hint="Digite a quantidade do produto"
         android:inputType="text"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
