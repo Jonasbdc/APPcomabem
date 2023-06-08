@@ -4,11 +4,11 @@ public class Produto {
 
     private int id;
     private String nome;
-    private double preco;
-    private int quantidade;
+    private String preco;
+    private String quantidade;
 
     //Metodo Construtor
-    public Produto(String nome, double preco, int quantidade) {
+    public Produto(String nome, String preco, String quantidade) {
         //this.nome = nome;
         //this.preco = preco;
         //this.quantidade = quantidade;
@@ -29,13 +29,13 @@ public class Produto {
 
     public void setNome(String nome) {  this.nome = nome;  }
 
-    public double getPreco() { return preco; }
+    public String getPreco() { return preco; }
 
-    public void setPreco(double preco) { this.preco = preco; }
+    public void setPreco(String preco) { this.preco = preco; }
 
-    public int getQuantidade() { return quantidade; }
+    public String getQuantidade() { return quantidade; }
 
-    public void setQuantidade(int quantidade) { this.quantidade = quantidade; }
+    public void setQuantidade(String quantidade) { this.quantidade = quantidade; }
 
     @Override
     public String toString(){  return nome;  }
